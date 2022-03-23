@@ -39,6 +39,38 @@ a {
     font-size: 18px;
 }
 
+.content-three {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-three-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    padding-top: 150px;
+}
+
+.thor {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+    padding-bottom: 150px;
+}
+
 .content-four {
     display: flex;
     justify-content: center;
@@ -51,19 +83,31 @@ a {
     border-radius: 5px;
     display: flex;
     align-items: center;
-    gap: 50px;
-    margin: 50px 100px 50px 100px;
+    gap: 150px;
+    margin: 100px;
     padding: 50px 100px 50px 100px;
+}
+
+.action {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sign-up {
+    font-size: 18px;
+    margin-top: 2px;
 }
 
 .content-four-button {
     color: #F9FAF8;
+    font-size: 18px;
     font-weight: bold;
     background-color: #3882F6;
     border-style: solid;
     border-color: #F9FAF8;
-    border-radius: 5px;
-    padding: 6px 30px 6px 30px;
+    border-radius: 7px;
+    border-width: 3px;
+    padding: 7px 30px 7px 30px;
 }
 
 .footer {
@@ -72,7 +116,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 span {
