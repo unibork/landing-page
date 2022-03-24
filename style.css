@@ -11,17 +11,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bolder;
-    margin-left: 100px;
+    margin-left: 350px;
 }
 
 .header-links {
-    margin-right: 100px;
+    margin-right: 350px;
 }
 
 ul {
@@ -39,6 +40,83 @@ a {
     font-size: 18px;
 }
 
+.content-one {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-one-box {
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+}
+
+.content-one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.awesome {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 400px;
+}
+
+.awesome-subtext {
+    color: white;
+    width: 400px;
+}
+
+.awesome-button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 7px;
+    border-width: 3px;
+    padding: 7px 30px 7px 30px;
+    width: 132px;
+}
+
+.content-one-right {
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+}
+
+.some-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 50px;
+    justify-content: center;
+}
+
+.square-one,
+.square-two,
+.square-three,
+.square-four {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+    
+}
+
 .content-three {
     background-color: #E5E7Eb;
     display: flex;
@@ -52,7 +130,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 800px;;
+    width: 800px;
+    padding: 200px;
 }
 
 .quote {
@@ -60,7 +139,6 @@ a {
     font-size: 36px;
     font-style: italic;
     text-align: left;
-    padding-top: 150px;
 }
 
 .thor {
@@ -68,7 +146,6 @@ a {
     font-size: 24px;
     font-weight: 900;
     align-self: flex-end;
-    padding-bottom: 150px;
 }
 
 .content-four {
