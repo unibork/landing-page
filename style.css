@@ -11,18 +11,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 350px 20px 350px;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bolder;
-    margin-left: 350px;
 }
 
 .header-links {
-    margin-right: 350px;
+    
 }
 
 ul {
@@ -84,11 +83,15 @@ a {
 }
 
 .content-one-right {
-    color: white;
-    background-color: gray;
-    font-size: 20px;
-    text-align: center;
-    padding: 100px;
+    display: flex;
+    max-width: 300px;
+    min-width: 0;
+    min-height: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .some-info {
