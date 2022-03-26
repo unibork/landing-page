@@ -99,7 +99,7 @@ a {
     min-height: 0;
 }
 
-img {
+.brain > img {
     max-width: 100%;
     height: auto;
     border-radius: 25px;
@@ -119,6 +119,7 @@ img {
     flex: 1;
     padding: 50px;
     justify-content: center;
+    gap: 20px;
 }
 
 .square-one,
