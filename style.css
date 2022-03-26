@@ -55,7 +55,7 @@ a {
 .content-one-left {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    width: 500px;
 }
 
 .awesome {
@@ -66,8 +66,9 @@ a {
 }
 
 .awesome-subtext {
-    color: white;
-    width: 400px;
+    color: rgb(194, 194, 194);
+    font-size: 17px;
+    padding-bottom: 10px;
 }
 
 .awesome-button {
@@ -84,7 +85,7 @@ a {
 
 .content-one-right {
     display: flex;
-    max-width: 300px;
+    max-width: 500px;
     min-width: 0;
     min-height: 0;
 }
@@ -92,6 +93,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 25px;
 }
 
 .some-info {
