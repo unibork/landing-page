@@ -17,12 +17,12 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
-.header-links {
+/* .header-links {
     
-}
+} */
 
 ul {
     display: flex;
@@ -140,6 +140,7 @@ img {
 .quote {
     color: #1F2937;
     font-size: 36px;
+    font-weight: 100;
     font-style: italic;
     text-align: left;
 }
